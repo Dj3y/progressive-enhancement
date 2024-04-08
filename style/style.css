@@ -1,0 +1,118 @@
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    /* fallback for old browsers */
+    background: #c6ffdd;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(#c6ffdd, #fbd786, #b55559);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(#c6ffdd, #fbd786, #b55559);
+    background-image: url("/src/bcg-img.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+.bad {
+    text-transform: uppercase;
+    color: red;
+}
+
+header p {
+    background-color: yellow;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    display: flex;
+    justify-content: left;
+}
+
+img {
+    margin-right: 30px;
+    height: 400px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(53, 53, 66);
+}
+
+article p:nth-child(2) {
+    font-weight: bold;
+}
+
+.good-people {
+    background-image: url("/src/bien.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 10px;
+    background-position: left;
+}
+
+.bad-people {
+    background-image: url("/src/mal.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 10px;
+    background-position: left;
+}
+
+.cat-people {
+    background-image: url("/src/cat.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    background-size: 10px;
+    background-position: left;
+}
+
+a {
+    color: rgb(9, 49, 49);
+    font-weight: 600;
+    text-decoration: none;
+    font-style: italic;
+
+}
+
+/* Must be put before the :hover and :active rules */
+a:visited {
+    color: rgb(16, 181, 181);
+}
+
+a:hover {
+    color: rgb(29, 144, 144);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+blockquote {
+    width: 50%;
+    margin: 80px auto;
+    font-size: 160%;
+    background-color: #E3E8E7;
+    border-left: 3px firebrick solid;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+tr:nth-child(even) {
+    background: #CCC;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
